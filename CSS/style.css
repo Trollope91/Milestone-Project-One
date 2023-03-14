@@ -19,8 +19,8 @@ a {
     min-height: 100vh;
     width: 100%;
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
 }
 
 /*--------------Home page-----------*/
@@ -30,4 +30,34 @@ a {
     background-size: cover;
     background-position: top center;
     position: relative;
+    z-index: 1;
+}
+
+#home::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: -1;
+}
+
+#home h1 {
+    display:block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color:azure
+}
+
+#home .cta { 
+    display: inline-block;
+    padding: 10px 20px;
+    color:rgb(161, 152, 17);
+    background-color:rgba(66, 66, 66, 0.7);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
 }
