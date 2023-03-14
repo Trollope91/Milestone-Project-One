@@ -44,6 +44,15 @@ a {
     z-index: -1;
 }
 
+#home .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    padding-bottom: 300px;
+    justify-content: flex-start;
+
+}
+
 #home h1 {
     display:block;
     width: fit-content;
@@ -63,6 +72,7 @@ a {
 }
 
 #home h1:nth-child(3) {
+    animation: text_reveal_name .5 ease forwards;
     animation-delay: 3.5s;
 }
 
@@ -94,7 +104,8 @@ a {
     padding: 10px 20px;
     color:rgb(161, 152, 17);
     background-color:rgba(66, 66, 66, 0.7);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
     text-transform: uppercase;
     transition: .4s ease-in background-color;
     transition: .2s ease-in color;
@@ -124,6 +135,12 @@ a {
 @keyframes text_reveal {
     100%{
         color:azure
+    }
+}
+
+@keyframes text_reveal_name {
+    100%{
+        color:rgb(161, 151, 17)
     }
 }
 
