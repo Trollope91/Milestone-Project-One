@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;700&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    font-family:"Comorant, sans-serif";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+/*--------------Home page-----------*/
+
+#home {
+    background-image: url(/Assets/image/placeholder-bg-home.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
