@@ -120,6 +120,46 @@ a {
     
 }
 
+/*-------------- Skills -----------*/
+
+#skills {
+}
+
+#skills .skills {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#skills .skills-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+#skills .skills-top p {
+    font-size:  1.6rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+
+#skills .skills-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
 /*---------key frames-------*/
 
 @keyframes text_reveal_box {
@@ -145,5 +185,3 @@ a {
         color:#a19711
     }
 }
-
-
