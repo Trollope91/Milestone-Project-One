@@ -74,6 +74,7 @@ a {
 #home h1:nth-child(3) {
     animation: text_reveal_name .5 ease forwards;
     animation-delay: 3.5s;
+
 }
 
 #home h1 span {
@@ -103,7 +104,7 @@ a {
     display: inline-block;
     padding: 10px 20px;
     color:rgb(161, 152, 17);
-    background-color:rgba(66, 66, 66, 0.7);
+    background-color:rgba(66, 66, 66, 0.5);
     font-size: 1.4rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -120,6 +121,7 @@ a {
 }
 
 /*---------key frames-------*/
+
 @keyframes text_reveal_box {
     50% {
         width: 100%;
@@ -140,7 +142,7 @@ a {
 
 @keyframes text_reveal_name {
     100%{
-        color:rgb(161, 151, 17)
+        color:#a19711
     }
 }
 
