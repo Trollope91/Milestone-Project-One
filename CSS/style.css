@@ -23,6 +23,12 @@ a {
     justify-content: center;
 }
 
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /*--------------Home page-----------*/
 
 #home {
@@ -48,7 +54,6 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
-    padding-bottom: 300px;
     justify-content: flex-start;
 
 }
@@ -137,10 +142,11 @@ a {
     font-size: 4rem;
     font-weight: 300;
     color: rgb(0, 0, 0);
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+
 }
 
 #skills .skills-top p {
@@ -157,6 +163,59 @@ a {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+#skills .skills-item {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(/Assets/image/coffee-cup-laptop-black-table-top-view-copyspace-background_144627-24861.jpg);
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    color: azure;
+    z-index: 1;
+}
+
+#skills .skills-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: -1;
+
+}
+
+#skills .skills-bottom .icon {
+    height: 50px;
+    width: 40px;
+    margin-bottom: 20px;
+    font-size:xx-large;
+}
+
+#skills .skills-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#skills .skills-item p {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
 
 
 
@@ -185,3 +244,4 @@ a {
         color:#a19711
     }
 }
+
