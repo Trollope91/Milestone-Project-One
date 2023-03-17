@@ -105,17 +105,30 @@ img{
     animation-delay: 3.1s;
 }
 
+#home input {
+    display: inline-block;
+    padding: 9px 10px;
+    color: azure;
+    font-size:1.1rem;
+    background-color:rgba(66, 66, 66, 0.5);
+    margin-top: 150px;
+    margin-right: 5px;
+    width: 290px;
+}
+
 #home .cta { 
     display: inline-block;
-    padding: 10px 20px;
-    color:rgb(161, 152, 17);
-    background-color:rgba(66, 66, 66, 0.5);
-    font-size: 1.4rem;
+    padding: 7px 9px;
+    color:rgba(161, 152, 17,0.8);
+    background-color:transparent;
+    border: 2px solid rgba(161, 152, 17,0.8);
+    font-size: 1.3rem;
     font-weight: bold;
     text-transform: uppercase;
     transition: .4s ease-in background-color;
     transition: .2s ease-in color;
-    margin-top: 5px;
+    margin-top: 10px;
+    
 
 }
 
@@ -289,6 +302,7 @@ img{
     overflow:hidden;
 }
 
+
 /*---------key frames-------*/
 
 @keyframes text_reveal_box {
@@ -314,5 +328,6 @@ img{
         color:#a19711
     }
 }
+
 
 
