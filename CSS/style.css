@@ -210,7 +210,61 @@ img{
     font-size: 1.4rem;
 }
 
+/*--------- Projects -------*/
 
+#projects .projects {
+    flex-direction: column;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 100px 0
+}
+
+#projects .projects-header h1 {
+
+    margin-bottom: 50px;
+}
+
+#projects .all-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projects .projects-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#projects .projects-info{
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: azure;
+
+}
+
+#projects .projects-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+
+}
 
 
 
@@ -243,5 +297,6 @@ img{
         color:#a19711
     }
 }
+
 
 
