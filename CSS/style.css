@@ -127,9 +127,6 @@ img{
 
 /*-------------- Skills -----------*/
 
-#skills {
-}
-
 #skills .skills {
     flex-direction: column;
     text-align: center;
@@ -142,7 +139,7 @@ img{
     font-size: 4rem;
     font-weight: 300;
     color: rgb(0, 0, 0);
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
@@ -155,6 +152,7 @@ img{
     line-height: 2.5rem;
     font-weight: 300;
     letter-spacing: .05rem;
+    margin-bottom: 20px;
 }
 
 #skills .skills-bottom {
@@ -178,6 +176,7 @@ img{
     position: relative;
     color: azure;
     z-index: 1;
+    overflow: hidden;
 }
 
 #skills .skills-item::after {
@@ -244,4 +243,5 @@ img{
         color:#a19711
     }
 }
+
 
