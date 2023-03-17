@@ -250,7 +250,7 @@ img{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:rgb(161, 152, 17, 0.8);
     color: azure;
 
 }
@@ -259,18 +259,35 @@ img{
     font-size: 4rem;
     font-weight: 300;
     color: rgb(0, 0, 0);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
 
 }
 
+#projects .projects-info h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
 
+#projects .projects-info h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 8px;
+}
 
+#projects .projects-info p {
+    color:azure;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
 
-
-
+#projects .projects-img{
+    flex-basis: 50%;
+    height:300px;
+    overflow:hidden;
+}
 
 /*---------key frames-------*/
 
@@ -297,6 +314,5 @@ img{
         color:#a19711
     }
 }
-
 
 
