@@ -223,6 +223,87 @@ img{
     font-size: 1.4rem;
 }
 
+/*---------About -------*/
+
+#about {
+    background-image: url(/Assets/image/placeholder-bg-home.jpg);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1; 
+    }
+    
+    #about::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.7);
+        z-index: -1;
+    }
+    
+    #about .about {
+        flex-direction: column-reverse;
+        text-align: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 100px 20px;
+    }
+    
+    #about .col-left {
+        width:250px;
+        height:360px;
+    }
+    
+    #about .col.right {
+        width: 100%;
+    }
+    
+    #about .about-title {
+            font-size: 4rem;
+            font-weight: 300;
+            color: azure;
+            margin-bottom: 7px;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+    
+    }
+    
+    #about .col-right h2 {
+        color: azure;
+        font-size: 2rem;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+    
+    #about .col-right p {
+        color: azure;
+        font-size: 1.2rem;
+    
+    }
+    
+    #about .cta { 
+        display: inline-block;
+        padding: 7px 9px;
+        color:rgba(161, 152, 17,0.8);
+        background-color:transparent;
+        border: 2px solid rgba(161, 152, 17,0.8);
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: .4s ease-in background-color;
+        transition: .2s ease-in color;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    #about .cta:hover{
+        color: azure;
+        background-color:rgb(161, 152, 17, 0.7);
+    }
+
 /*--------- Projects -------*/
 
 #projects .projects {
@@ -301,87 +382,6 @@ img{
     flex-basis: 50%;
     height:300px;
     overflow:hidden;
-}
-
-/*---------About -------*/
-
-#about {
-background-image: url(/Assets/image/placeholder-bg-home.jpg);
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    z-index: 1; 
-}
-
-#about::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.7);
-    z-index: -1;
-}
-
-#about .about {
-    flex-direction: column-reverse;
-    text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 20px;
-}
-
-#about .col-left {
-    width:250px;
-    height:360px;
-}
-
-#about .col.right {
-    width: 100%;
-}
-
-#about .about-title {
-        font-size: 4rem;
-        font-weight: 300;
-        color: azure;
-        margin-bottom: 7px;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
-
-}
-
-#about .col-right h2 {
-    color: azure;
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 15px;
-}
-
-#about .col-right p {
-    color: azure;
-    font-size: 1.2rem;
-
-}
-
-#about .cta { 
-    display: inline-block;
-    padding: 7px 9px;
-    color:rgba(161, 152, 17,0.8);
-    background-color:transparent;
-    border: 2px solid rgba(161, 152, 17,0.8);
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: .4s ease-in background-color;
-    transition: .2s ease-in color;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-#about .cta:hover{
-    color: azure;
-    background-color:rgb(161, 152, 17, 0.7);
 }
 
 /*---------key frames-------*/
