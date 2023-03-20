@@ -355,7 +355,7 @@ background-image: url(/Assets/image/placeholder-bg-home.jpg);
     color: azure;
     font-size: 2rem;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #about .col-right p {
@@ -376,15 +376,13 @@ background-image: url(/Assets/image/placeholder-bg-home.jpg);
     transition: .4s ease-in background-color;
     transition: .2s ease-in color;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #about .cta:hover{
     color: azure;
     background-color:rgb(161, 152, 17, 0.7);
 }
-
-
 
 /*---------key frames-------*/
 
