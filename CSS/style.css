@@ -208,7 +208,7 @@ img{
     height: 50px;
     width: 40px;
     margin-bottom: 20px;
-    font-size:xx-large;
+    font-size:4rem;
 }
 
 #skills .skills-item h2 {
@@ -254,7 +254,7 @@ img{
     
     #about .col-left {
         width:250px;
-        height:360px;
+        height:300px;
     }
     
     #about .col.right {
@@ -262,7 +262,7 @@ img{
     }
     
     #about .about-title {
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: 300;
             color: azure;
             margin-bottom: 7px;
@@ -273,30 +273,32 @@ img{
     
     #about .col-right h2 {
         color: azure;
-        font-size: 2rem;
+        font-size: 1.6rem;
         font-weight: 300;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
+        font-weight: bold;
     }
     
     #about .col-right p {
         color: azure;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+       
     
     }
     
     #about .cta { 
         display: inline-block;
         padding: 7px 9px;
-        color:rgba(161, 152, 17,0.8);
+        color:rgba(161, 152, 17,0.9);
         background-color:transparent;
-        border: 2px solid rgba(161, 152, 17,0.8);
+        border: 2px solid rgba(161, 152, 17,0.9);
         font-size: 1.3rem;
         font-weight: bold;
         text-transform: uppercase;
         transition: .4s ease-in background-color;
         transition: .2s ease-in color;
-        margin-top: 10px;
-        margin-bottom: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     #about .cta:hover{
@@ -409,6 +411,7 @@ img{
         color:#a19711
     }
 }
+
 
 
 
