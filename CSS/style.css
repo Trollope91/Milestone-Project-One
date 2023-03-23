@@ -29,6 +29,11 @@ img{
     object-fit: cover;
 }
 
+.brand {
+    font-size: 2rem;
+    color: rgb(161, 152, 17);
+}
+
 /*--------------Home page-----------*/
 
 #home {
@@ -111,9 +116,9 @@ img{
     color: azure;
     font-size:1.1rem;
     background-color:rgba(66, 66, 66, 0.5);
-    margin-top: 150px;
+    margin-top: 250px;
     margin-right: 5px;
-    width: 290px;
+    width: 250px;
 }
 
 #home .cta { 
@@ -226,23 +231,14 @@ img{
 /*---------About -------*/
 
 #about {
-    background-image: url(/Assets/image/placeholder-bg-home.jpg);
-        background-size: cover;
+    background-image: linear-gradient(60deg, #020202 0%, #4b5055 100%);
+        background-size:cover ;
         background-position: top center;
         position: relative;
         z-index: 1; 
     }
     
-    #about::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(0,0,0,0.7);
-        z-index: -1;
-    }
+ 
     
     #about .about {
         flex-direction: column-reverse;
@@ -254,7 +250,7 @@ img{
     
     #about .col-left {
         width:250px;
-        height:300px;
+        height:360px;
     }
     
     #about .col.right {
@@ -297,8 +293,8 @@ img{
         text-transform: uppercase;
         transition: .4s ease-in background-color;
         transition: .2s ease-in color;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     #about .cta:hover{
@@ -386,6 +382,57 @@ img{
     overflow:hidden;
 }
 
+/*---------footer-------*/
+
+#footer {
+    background-image: linear-gradient(60deg, #020202 0%, #4b5055 100%);
+}
+
+#footer .footer {
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer h2 {
+    color: azure;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+#footer .social-icon {
+    display:flex;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+#footer i {
+    margin-top: 20px;
+    color:rgb(161, 152, 17, 0.9);
+    padding-left: 15px;
+
+}
+
+#footer i::after {
+
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+height: 100;
+width: 100%;
+
+}
+
+#footer i:hover {
+    transform: scale(1.1);
+    transition: .2s ease transform}
+
+
+
+
 /*---------key frames-------*/
 
 @keyframes text_reveal_box {
@@ -413,5 +460,23 @@ img{
 }
 
 
+/*---------Media Query Tablet-------*/
 
+/*---------home-------*/
 
+@media only screen and (min-width: 768px) {
+    #home h1 {
+font-size: 6rem;
+      }
+    }
+    
+    /*---------skills-------*/
+
+    @media only screen and (min-width: 768px) {
+    #skills .skills-bottom .skills-item{
+        flex-basis: 45%;
+        margin:2.5%
+    }
+        }
+
+  
