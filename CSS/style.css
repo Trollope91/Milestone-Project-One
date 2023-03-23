@@ -479,4 +479,24 @@ font-size: 6rem;
     }
         }
 
+         /*--------about me--------*/
+
+          /*---------projects-------*/
+
+          @media only screen and (min-width: 768px) {
+            #projects .projects-item {
+                flex-direction: row;
+            }
+            #projects .projects-item {
+height: 400px;
+margin: 0;
+width: 100%;
+border-radius: 0;
+            }
+#projects .all-projects .project-img {
+    height: 100%;
+}
+
+                }
+
   
