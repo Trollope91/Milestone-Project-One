@@ -6,9 +6,9 @@ margin: 0;
 box-sizing: border-box;
 }
 
-html {
+body {
     font-size: 12px;
-    font-family:"Comorant, sans-serif";
+    font-family: "Comorant, sans-serif" !important;
 }
 
 a {
@@ -34,6 +34,14 @@ img{
     color: rgb(161, 152, 17);
 }
 
+
+/*--------------Header-----------*/
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width:100%;
+}
 /*--------------Home page-----------*/
 
 #home {
@@ -118,7 +126,7 @@ img{
     background-color:rgba(66, 66, 66, 0.5);
     margin-top: 50px;
     margin-right: 5px;
-    width: 250px;
+    max-width: 250px;
 }
 
 #home .cta { 
@@ -530,5 +538,7 @@ border-radius: 0;
                 }
 
   
+
+
 
   
