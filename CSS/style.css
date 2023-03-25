@@ -35,7 +35,7 @@ img{
 }
 
 
-/*--------------Header-----------*/
+/*--------------Nav Bar-----------*/
 
 .navbar {
     position: fixed;
@@ -227,7 +227,7 @@ img{
 #skills .skills-bottom .icon {
     height: 50px;
     width: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size:4rem;
 }
 
