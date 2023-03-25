@@ -103,6 +103,22 @@ img {
 
 }
 
+.navbar .nav-item {
+  position:relative;
+    
+    }
+
+.navbar .nav-item::after {
+content:"";
+width:0;
+height: 3px;
+background: #a19711;
+position: absolute;
+left: 0;
+bottom: -6px;
+
+}
+
 /*--------------Home page-----------*/
 
 #home {
@@ -511,6 +527,18 @@ img {
 
 
 /*---------Media Query Tablet-------*/
+
+/*---------home-------*/
+
+@media only screen and (max-width: 768px) {
+    .form-control{
+        visibility: hidden;
+    }
+
+    .btn{
+        visibility: hidden;
+    }
+}
 
 /*---------home-------*/
 
