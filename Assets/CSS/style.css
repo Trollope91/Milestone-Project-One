@@ -40,8 +40,8 @@ img {
 
 
 /*--------------Nav Bar-----------*/
-.navbar{
-position: fixed;
+.navbar {
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
@@ -80,9 +80,13 @@ position: fixed;
     padding: 8px 9px;
     color: azure;
     font-size: 1.1rem;
-    background-color:  rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     margin-right: 5px;
     max-width: 250px;
+}
+
+.navbar-brand {
+    color: #a19711;
 }
 
 /*-------------nav bar end----------*/
@@ -193,7 +197,7 @@ position: fixed;
 }
 
 #skills .skills-top {
-    max-width: 500px;
+    max-width: 900px;
     margin: 0 auto;
     padding-left: 5px;
     padding-right: 5px;
@@ -230,7 +234,7 @@ position: fixed;
     color: azure;
     z-index: 1;
     overflow: hidden;
-    height: 350px;
+    height: 380px;
 }
 
 #skills .skills-item::after {
@@ -502,11 +506,13 @@ position: fixed;
 
 @media only screen and (max-width: 912px) {
 
-.navbar .form-control {
-    display:none
-}
+    .navbar .form-control {
+        display: none
+    }
 
-.navbar .btn {display: none;}
+    .navbar .btn {
+        display: none;
+    }
 
 }
 
@@ -525,7 +531,19 @@ position: fixed;
 @media only screen and (min-width: 768px) {
     #skills .skills-bottom .skills-item {
         flex-basis: 45%;
-        margin: 2.5%
+        margin: 2.5%;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    #skills .skills-bottom .skills-item { 
+        height: fit-content;
+        
+    }
+
+    #skills .skills-top p {
+        font-size:x-large;
+        line-height: 1.8rem;
     }
 }
 
@@ -545,13 +563,13 @@ position: fixed;
     #about .col-right {
         text-align: left;
         padding: 30px;
-        margin-bottom: 150px;
     }
 }
 
 @media only screen and (min-width: 912px) {
     #about .about {
         flex-direction: row;
+
     }
 
     #about .col-left {
@@ -565,6 +583,37 @@ position: fixed;
         padding: 30px;
         margin-bottom: 100px;
     }
+}
+
+@media only screen and (max-width: 912px) {
+    #about .about {
+      background-image: url(/Assets/image/41V0l2-6V8L._AC_.jpg);
+      background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+
+}
+
+#about .col-left {
+    display: none;
+}
+
+#about .col-right{
+    align-content: center;
+}
+
+#about .about::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
 }
 
 
@@ -585,6 +634,7 @@ position: fixed;
         width: 100%;
         border-radius: 0;
     }
+
 
     #projects .all-projects .project-img {
         height: 100%;
