@@ -80,7 +80,7 @@ img {
 }
 
 .nav-item {
-    font-size:20px;
+    font-size: 20px;
 }
 
 .navbar .form-control {
@@ -114,32 +114,33 @@ img {
 
 .form-control:focus {
     border-color: rgb(161, 152, 17);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05), 0 0 9px rgba(161, 152, 17,0.7);
-  }
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05), 0 0 9px rgba(161, 152, 17, 0.7);
+}
 
-  .btn-dark {
+.btn-dark {
     color: azure;
     background-color: rgb(161, 152, 17);
     border-color: rgb(161, 152, 17);
 
-  }
+}
 
-  .btn-dark:hover {
+.btn-dark:hover {
     color: azure;
-    background-color:rgb(133, 125, 13) ;
-    border-color:rgb(133, 125, 13);
+    background-color: rgb(133, 125, 13);
+    border-color: rgb(133, 125, 13);
 
-  }
+}
 
-  .btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
     outline: 0;
-    box-shadow: none!important;
+    box-shadow: none !important;
 }
 
 /*--------------Home page-----------*/
 
 #home {
-    background-image: url(/Assets/image/background\ home.png);
+    background-image: url(/Milestone-Project-One/Assets/image/background\ home.png);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -265,7 +266,7 @@ img {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(/Assets/image/coffee-cup-laptop-black-table-top-view-copyspace-background_144627-24861.jpg);
+    background-image: url(/Milestone-Project-One/Assets/image/coffee-cup-laptop-black-table-top-view-copyspace-background_144627-24861.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -310,7 +311,7 @@ img {
 /*---------About -------*/
 
 #about {
-    background-image: url(/Assets/image/about\ me.png);
+    background-image: url(/Milestone-Project-One/Assets/image/about\ me.png);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -333,7 +334,7 @@ img {
 
 #about .col.right {
     width: 100%;
-    
+
 }
 
 #about .about-title {
@@ -574,36 +575,37 @@ img {
 
 @media only screen and (width < 600px) {
     #home h1 {
-    display: block;
-    width: fit-content;
-    font-size: 3rem;
-    position: relative;
-    color: transparent;
-    animation: text_reveal .5s ease forwards;
-    animation-delay: 1.4s; }
+        display: block;
+        width: fit-content;
+        font-size: 3rem;
+        position: relative;
+        color: transparent;
+        animation: text_reveal .5s ease forwards;
+        animation-delay: 1.4s;
+    }
 }
 
 @media only screen and (max-width: 912px) {
     #home .home {
-      background-image: url(/Assets/image/mobiolehome.png);
-      background-size: cover;
-    background-position: top center;
-    position: relative;
-    z-index: 1;
+        background-image: url(/Milestone-Project-One/Assets/image/mobiolehome.png);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1;
 
-}
+    }
 
 
-#home .home::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1;
-}
+    #home .home::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+    }
 
 }
 
@@ -623,13 +625,13 @@ img {
 }
 
 @media only screen and (max-width: 415px) {
-    #skills .skills-bottom .skills-item { 
+    #skills .skills-bottom .skills-item {
         height: fit-content;
-        
+
     }
 
     #skills .skills-top p {
-        font-size:x-large;
+        font-size: x-large;
         line-height: 1.8rem;
     }
 }
@@ -678,33 +680,33 @@ img {
 
 @media only screen and (max-width: 912px) {
     #about .about {
-      background-image: url(/Assets/image/mobilebg.png);
-      background-size: cover;
-    background-position: top center;
-    position: relative;
-    z-index: 1;
+        background-image: url(/Milestone-Project-One/Assets/image/mobilebg.png);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1;
 
-}
+    }
 
-#about .col-left {
-    display: none;
-}
+    #about .col-left {
+        display: none;
+    }
 
-#about .col-right{
-    align-content: center;
-    text-align: center;
-}
+    #about .col-right {
+        align-content: center;
+        text-align: center;
+    }
 
-#about .about::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: -1;
-}
+    #about .about::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: -1;
+    }
 
 }
 

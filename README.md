@@ -232,6 +232,9 @@ when attempting to remove the stock boot strap color schemes with my own I decid
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 
+![Performancedesktop](/Assets/image/responsedesktop.png)
+![Performancemobile](/Assets/image/responsemobile.png)
+
 ## Code Validation
  At the and of the project I used two websites to validate a code
  
@@ -260,12 +263,12 @@ ___
 
     * [css-tricks.com](https://css-tricks.com/)
 
-    * [getbootstrap.com/docs](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    * [getbootstrap.com/docs](https://getbootstrap.com/docs/4.6.2/getting-started/introduction/)
         I used code for navbar from Bootstrap.
 
 ### Code
 
-* Bootstrap: [Burger menu](https://getbootstrap.com/docs/4.6/components/navbar/#text)
+* Bootstrap: [Burger menu](https://getbootstrap.com/docs/4.6.2/components/navbar/#text)
 
 ### Images:
 
@@ -276,19 +279,15 @@ ___
 
 ## Project screenshots
 
-![bug_performance1]()
+![project images](/Assets/image/project1.png)
 
-![bug_performance1]()
+![project images](/Assets/image/project2.png)
 
-![bug_performance1]()
+![project images](/Assets/image/project3.png)
 
-![bug_performance1]()
+![project images](/Assets/image/project4.png)
 
-![bug_performance1]()
-
-![bug_performance1]()
-
-![bug_performance1]()
+![project images](/Assets/image/project5.png)
 
 
 [Back to Table of contents](#table-of-contents)
