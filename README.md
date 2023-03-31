@@ -10,7 +10,7 @@ This project is for educational purposes only.
 
 The main aim of this project is to build a responsive website that uses HTML and CSS as well as some elements from bootstrap powered by some java script
 
-## [View luke's portfolio in github pages](https://trollope91.github.io/Front-End-Project/)
+## [View luke's portfolio in github pages](https://trollope91.github.io/Milestone-Project-One/)
 ---
 
 # Table of contents
