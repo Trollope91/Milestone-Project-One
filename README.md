@@ -2,7 +2,7 @@
 
 ## User-Centric Frontend Development Milestone Project.
 
-![Mockup](md_images/mockup.png)
+![Project image](/Assets/image/project%20image.png)
 
 The Website presents my portfolio as a full stack web developer, prospective employers and partners will be able to acess my skill and find out information relating to my self, as well as contact me and find social links to other platforms.
 
@@ -10,7 +10,7 @@ This project is for educational purposes only.
 
 The main aim of this project is to build a responsive website that uses HTML and CSS as well as some elements from bootstrap powered by some java script
 
-## [View luke's portfolio in github pages](address here)
+## [View luke's portfolio in github pages](https://trollope91.github.io/Front-End-Project/)
 ---
 
 # Table of contents
@@ -72,7 +72,7 @@ The website is designed to be simple and effective displaying competent use of H
 
 ## Wireframes
 
-I used the balsamiq programme to create a wireframes.
+I used the balsamiq programme to create the initial wireframes.
 
 ![Wireframes](images here)
 
@@ -211,13 +211,21 @@ ___
 ---
 ## Issues found during site development
 
+I had issues targeting the specific parts of bootstrap which lead to a few issues that I rectified by different means 
+
+when trying to change the brand name to the site specific colors and add an animation on hover I found the only way to rectify it was to use inline styling to circumvent the issue
+
+(style="color: rgb(161, 152, 17); font-size: xx-large;" onmouseover="this.style.color='#d4c715'" onmouseout="this.style.color='rgb(161, 152, 17))
+
 * #### 
-![testing_issue_1]()
+![testing_issue_1](/Assets/image/brand.png)
+![testing_issue_1](/Assets/image/brand2.png)
 
-
+when attempting to remove the stock boot strap color schemes with my own I decided to use the built in (btn-dark) feature to create a cohesive and intentional feel to the design.
 * #### 
 
-![testing_issue_2]()
+![testing_issue_2](/Assets/image/modalsubmit.png)
+![testing_issue_2](/Assets/image/modalsubmit2.png)
 
 
 ## Performance testing
