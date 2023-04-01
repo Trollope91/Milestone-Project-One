@@ -272,6 +272,22 @@ ___
 
 ### Images:
 
+back ground of project 1
+
+https://www.pexels.com/photo/turned-on-silver-imac-with-might-mouse-and-keyboard-930530/ project image
+
+boxing image
+
+Photo by Andrea Piacquadio from Pexels: https://www.pexels.com/photo/close-up-photography-of-man-wearing-boxing-gloves-927437/
+
+gaming image
+
+Photo by Lucie Liz from Pexels: https://www.pexels.com/photo/flatlay-of-gaming-equipments-3165335/
+
+fashion image 
+ 
+Photo by Godisable Jacob from Pexels: https://www.pexels.com/photo/woman-in-brown-and-gray-t-shirt-sitting-on-brown-wooden-table-949670/
+
 [Back to Table of contents](#table-of-contents)
 ___
 
