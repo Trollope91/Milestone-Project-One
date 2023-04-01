@@ -142,7 +142,7 @@ img {
 /*--------------Home page-----------*/
 
 #home {
-    background-image: url(/Milestone-Project-One/Assets/image/background\ home.png);
+    background-image: url(Assets/image/background\ home.png);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -266,7 +266,7 @@ img {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(/Milestone-Project-One/Assets/image/coffee-cup-laptop-black-table-top-view-copyspace-background_144627-24861.jpg);
+    background-image: url(Assets/image/coffee-cup-laptop-black-table-top-view-copyspace-background_144627-24861.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -311,7 +311,7 @@ img {
 /*---------About -------*/
 
 #about {
-    background-image: url(/Milestone-Project-One/Assets/image/about\ me.png);
+    background-image: url(Assets/image/about\ me.png);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -595,7 +595,7 @@ img {
 
 @media only screen and (max-width: 912px) {
     #home .home {
-        background-image: url(/Milestone-Project-One/Assets/image/mobiolehome.png);
+        background-image: url(Assets/image/mobiolehome.png);
         background-size: cover;
         background-position: top center;
         position: relative;
@@ -688,7 +688,7 @@ img {
 
 @media only screen and (max-width: 912px) {
     #about .about {
-        background-image: url(/Milestone-Project-One/Assets/image/mobilebg.png);
+        background-image: url(Assets/image/mobilebg.png);
         background-size: cover;
         background-position: top center;
         position: relative;
