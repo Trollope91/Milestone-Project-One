@@ -142,7 +142,7 @@ img {
 /*--------------Home page-----------*/
 
 #home {
-    background-image: url(Assets/image/background\ home.png);
+    background-image: url(../image/background-home.png);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -266,7 +266,7 @@ img {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(Assets/image/coffee-cup-laptop-black-table-top-view-copyspace-background_144627-24861.jpg);
+    background-image: url(../image/coffee-cup-laptop-black-table-top-view-copyspace-background_144627-24861.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -311,7 +311,7 @@ img {
 /*---------About -------*/
 
 #about {
-    background-image: url(Assets/image/about\ me.png);
+    background-image: url(../image/about-me.png);
     background-size: cover;
     background-position: top center;
     position: relative;
