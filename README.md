@@ -2,7 +2,7 @@
 
 ## User-Centric Frontend Development Milestone Project.
 
-![Project image](/Assets/image/project%20image.png)
+![Project_image](/Assets/image/project-image.png)
 
 The Website presents my portfolio as a full stack web developer, prospective employers and partners will be able to acess my skill and find out information relating to my self, as well as contact me and find social links to other platforms.
 
@@ -224,16 +224,16 @@ when trying to change the brand name to the site specific colors and add an anim
 when attempting to remove the stock boot strap color schemes with my own I decided to use the built in (btn-dark) feature to create a cohesive and intentional feel to the design.
 * #### 
 
-![testing_issue_2](/Assets/image/modalsubmit.png)
-![testing_issue_2](/Assets/image/modalsubmit2.png)
+![testing_issue_2](/Assets/image/modal-submit.png)
+![testing_issue_2](/Assets/image/modal-submit2.png)
 
 
 ## Performance testing
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 
-![Performancedesktop](/Assets/image/responsedesktop.png)
-![Performancemobile](/Assets/image/responsemobile.png)
+![Performance-desktop](/Assets/image/response-desktop.png)
+![Performance-mobile](/Assets/image/response-mobile.png)
 
 ## Code Validation
  At the and of the project I used two websites to validate a code
@@ -287,6 +287,10 @@ Photo by Lucie Liz from Pexels: https://www.pexels.com/photo/flatlay-of-gaming-e
 fashion image 
  
 Photo by Godisable Jacob from Pexels: https://www.pexels.com/photo/woman-in-brown-and-gray-t-shirt-sitting-on-brown-wooden-table-949670/
+
+keyboard image 
+
+https://www.pexels.com/photo/grey-laptop-keypad-60626/
 
 [Back to Table of contents](#table-of-contents)
 ___
