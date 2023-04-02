@@ -63,7 +63,6 @@ img {
     border: 2px solid rgba(161, 152, 17, 0.8);
     font-size: 1.1rem;
     font-weight: bold;
-    text-transform: uppercase;
     transition: .4s ease-in background-color;
     transition: .2s ease-in color;
 }
@@ -103,11 +102,12 @@ img {
     padding: 8px 9px;
     color: whitesmoke;
     font-size: 1.1rem;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-title {
     color: rgb(161, 152, 17);
+    font-size: 1.5rem;
 }
 
 .form-control .your-message {
@@ -137,6 +137,10 @@ img {
 .btn:focus {
     outline: 0;
     box-shadow: none !important;
+}
+
+.btn-secondary {
+    font-size: 1.1rem;
 }
 
 /*--------------Home page-----------*/

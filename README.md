@@ -1,10 +1,10 @@
 # Luke's Portfolio
 
-## User-Centric Frontend Development Milestone Project.
+## User-Centric Front end Development Milestone Project.
 
 ![Project_image](/Assets/image/project-image.png)
 
-The Website presents my portfolio as a full stack web developer, prospective employers and partners will be able to acess my skill and find out information relating to my self, as well as contact me and find social links to other platforms.
+The Website presents my portfolio as a full stack web developer, prospective employers and partners will be able to access my skill and find out information relating to my self, as well as contact me and find social links to other platforms.
 
 This project is for educational purposes only.
 
@@ -74,9 +74,13 @@ The website is designed to be simple and effective displaying competent use of H
 
 I used the balsamiq programme to create the initial wireframes.
 
-![Wireframes](images here)
+![Mobile-Wireframes](/Assets/image/mobile-wireframes.png)
 
-## Surface
+![Mobile-Wireframes](/Assets/image/desktop-wireframes.png)
+
+### Changes
+
+Initially the site was to contain a dedicated contact me section but I thought with the links in the footer I could add a modal to the intial home page for a better use of space and look overall.
 
 ### Colors
 
@@ -117,7 +121,7 @@ The website has below features:
 
 ## Home
 
-* Home is designed to display design skills and be an immediate introduction to mysel and the level of skill at which I currently operate.
+* Home is designed to display design skills and be an immediate introduction to myself and the level of skill at which I currently operate.
 
 ## About me
 
@@ -196,7 +200,7 @@ ___
 - I need to make sure that prospective employers are able to navigate the site and easily find what they are looking for 
     > Site is easy to visually navigate with links that take the user to the relevant areas of interest.
 - I want prospective employers to be able to find me on other social platforms easily
-    > Footer containts animated icons that link to my other relevant platforms of contact.
+    > Footer contains animated icons that link to my other relevant platforms of contact.
 - I want prospective emplyers to be able to see my relevant projects that show my experience and skills
     > Project sections contains most relevant pieces of work and about me section contains a link to download a CV for a more in depth look at my professional qualifications.
 
@@ -247,7 +251,7 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
 ___
 # Deployment
 
-The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I committed all changes to git version control system.
 
 
 [Back to Table of contents](#table-of-contents)
