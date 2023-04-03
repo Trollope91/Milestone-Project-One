@@ -2,7 +2,7 @@
 
 ## User-Centric Front end Development Milestone Project.
 
-![Project_image](/Assets/image/project-image.png)
+![Project_image](/assets/image/project-image.png)
 
 The Website presents my portfolio as a full stack web developer, prospective employers and partners will be able to access my skill and find out information relating to my self, as well as contact me and find social links to other platforms.
 
@@ -26,8 +26,7 @@ The main aim of this project is to build a responsive website that uses HTML and
     - [Wireframes](#wireframes)
     - [Surface](#surface)
 - [Features](#features)
-- [Technology](#technology)
-- [Testing](#testing)
+- [Technologies used](#technologies-used)
     - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
     - [Code Validation](#code-validation)
@@ -74,9 +73,9 @@ The website is designed to be simple and effective displaying competent use of H
 
 I used the balsamiq programme to create the initial wireframes.
 
-![Mobile-Wireframes](/Assets/image/mobile-wireframes.png)
+![Mobile-Wireframes](/assets/image/mobile-wireframes.png)
 
-![Mobile-Wireframes](/Assets/image/desktop-wireframes.png)
+![Mobile-Wireframes](/assets/image/desktop-wireframes.png)
 
 ### Changes
 
@@ -115,25 +114,37 @@ The website has below features:
        *About me
        *Projects
 
+       ![project images](/assets/image/project1.png)
+
 ## Footer
 
-* Footer has social links centered as icons that animate upon hover.
+* Footer has social links centered as icons that animate upon hover. 
+
+![project images](/assets/image/project6.png)
 
 ## Home
 
-* Home is designed to display design skills and be an immediate introduction to myself and the level of skill at which I currently operate.
+* Home is designed to display design skills and be an immediate introduction to myself and the level of skill at which I currently operate with the ability to contact me via an email modal.
 
-## About me
-
-* About me gives information about myself my professional background and where I aspire to take my career
+![project images](/assets/image/project2.png)
 
 ## Skills
 
 * Skills page gives a bit more specific insight into my current level of knowledge and experience.
 
+![project images](/assets/image/project3.png)
+
+## About me
+
+* About me gives information about myself my professional background and where I aspire to take my career
+
+![project images](/assets/image/project4.png)
+
 ## Projects 
 
 * projects page contains a list of the works I have created as an example for prospective employers.
+
+![project images](/assets/image/project5.png)
 
 ##  Future implementations
 
@@ -222,22 +233,22 @@ when trying to change the brand name to the site specific colors and add an anim
 (style="color: rgb(161, 152, 17); font-size: xx-large;" onmouseover="this.style.color='#d4c715'" onmouseout="this.style.color='rgb(161, 152, 17))
 
 * #### 
-![testing_issue_1](/Assets/image/brand.png)
-![testing_issue_1](/Assets/image/brand2.png)
+![testing_issue_1](/assets/image/brand.png)
+![testing_issue_1](/assets/image/brand2.png)
 
 when attempting to remove the stock boot strap color schemes with my own I decided to use the built in (btn-dark) feature to create a cohesive and intentional feel to the design.
 * #### 
 
-![testing_issue_2](/Assets/image/modal-submit.png)
-![testing_issue_2](/Assets/image/modal-submit2.png)
+![testing_issue_2](/assets/image/modal-submit.png)
+![testing_issue_2](/assets/image/modal-submit2.png)
 
 
 ## Performance testing
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 
-![Performance-desktop](/Assets/image/response-desktop.png)
-![Performance-mobile](/Assets/image/response-mobile.png)
+![Performance-desktop](/assets/image/response-desktop.png)
+![Performance-mobile](/assets/image/response-mobile.png)
 
 ## Code Validation
  At the and of the project I used two websites to validate a code
@@ -295,23 +306,5 @@ Photo by Godisable Jacob from Pexels: https://www.pexels.com/photo/woman-in-brow
 keyboard image 
 
 https://www.pexels.com/photo/grey-laptop-keypad-60626/
-
-[Back to Table of contents](#table-of-contents)
-___
-
-# Screenshots
-
-## Project screenshots
-
-![project images](/Assets/image/project1.png)
-
-![project images](/Assets/image/project2.png)
-
-![project images](/Assets/image/project3.png)
-
-![project images](/Assets/image/project4.png)
-
-![project images](/Assets/image/project5.png)
-
 
 [Back to Table of contents](#table-of-contents)
