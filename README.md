@@ -264,6 +264,15 @@ ___
 
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I committed all changes to git version control system.
 
+## Copying the repository
+
+A user can make a local copy of my repository by going to the GitHub repository page of my project and clicking on the "Code" button, which will open a dropdown menu.
+
+Select the protocol (HTTPS or SSH) for the clone URL and copy it to the clipboard.
+Open a terminal on their local machine and navigate to the directory where they want to store the project.
+
+Type the command "git clone" followed by the URL they copied in step 3, and press Enter.
+Wait for the cloning process to complete
 
 [Back to Table of contents](#table-of-contents)
 ___
