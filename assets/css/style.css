@@ -8,7 +8,7 @@
 
 html {
     scroll-behavior: smooth;
-   
+
 }
 
 body {
@@ -43,7 +43,7 @@ img {
 
 /*--------------Nav Bar-----------*/
 .navbar {
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
@@ -240,6 +240,7 @@ img {
     text-align: center;
 
 }
+
 #skills .skills-top {
     max-width: 900px;
     margin: 0 auto;
@@ -439,7 +440,7 @@ img {
     justify-content: center;
     flex-direction: column;
     background-image: linear-gradient(60deg, #020202 0%, #4b5055 100%);
-    color:whitesmoke;
+    color: whitesmoke;
 
 }
 
@@ -466,7 +467,7 @@ img {
 }
 
 #projects .projects-info p {
-    color:whitesmoke;
+    color: whitesmoke;
     font-size: 1.2rem;
     margin-top: 5px;
     margin-bottom: 20px;

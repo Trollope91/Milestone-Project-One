@@ -24,7 +24,6 @@ The main aim of this project is to build a responsive website that uses HTML and
     - [User stories](#user-stories)
     - [Structure of the website](#structure-of-the-website)
     - [Wireframes](#wireframes)
-    - [Surface](#surface)
 - [Features](#features)
 - [Technologies used](#technologies-used)
     - [Functionality testing](#functionality-testing)
@@ -35,7 +34,6 @@ The main aim of this project is to build a responsive website that uses HTML and
     - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
-- [Screenshots](#screenshots)
 
 
 # UX
