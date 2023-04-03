@@ -266,13 +266,14 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 ## Copying the repository
 
-A user can make a local copy of my repository by going to the GitHub repository page of my project and clicking on the "Code" button, which will open a dropdown menu.
+A user can make a local copy of my repository by going to the GitHub repository page of my project and clicking on the "Code" button which will open a dropdown menu, select the protocol (HTTPS or SSH) for the clone URL and copy it to the clipboard.
+Open a terminal on their local machine and navigate to the directory where they want to store the project then type the command "git clone" followed by the URL they copied in step 3, and press Enter.
+Wait for the cloning process to complete.
 
-Select the protocol (HTTPS or SSH) for the clone URL and copy it to the clipboard.
-Open a terminal on their local machine and navigate to the directory where they want to store the project.
+## Forking the repository
 
-Type the command "git clone" followed by the URL they copied in step 3, and press Enter.
-Wait for the cloning process to complete
+To fork the repository the user can go to the GitHub repository page of the project and click on the "Fork" button in the upper right-hand corner of the page, select the account they want to fork the project to and then wait for GitHub to create a copy of the project in their account.
+Once the fork is complete the project will be available under their account with the option to clone to their local machine.
 
 [Back to Table of contents](#table-of-contents)
 ___
