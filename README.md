@@ -193,6 +193,8 @@ ___
 
  I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
 
+ ![resolution test](/assets/image/resolution-test.png)
+
 
 ## Compatibility testing
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools. 
