@@ -193,6 +193,8 @@ ___
 
  I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
 
+## Media Query / Resolution testing 
+
  ![resolution test](/assets/image/resolution-test.png)
 
 
