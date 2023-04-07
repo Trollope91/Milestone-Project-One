@@ -39,6 +39,8 @@ The main goal of the website is to present myself as a competent developer displ
 * I would like to contact the site owner easily.
 * I would like to be able to find all relevant information needed on the page.
 
+![User-story](/assets/documentation/user-story.gif)
+
 
 ## Structure of the website
 
@@ -48,9 +50,9 @@ The website is designed to be simple and effective displaying competent use of H
 
 I used the balsamiq programme to create the initial wireframes.
 
-![Mobile-Wireframes](/assets/documentation//mobile-wireframes.png)
+![Mobile-Wireframes](/assets/documentation/mobile-wireframes.png)
 
-![Mobile-Wireframes](/assets/documentation//desktop-wireframes.png)
+![Mobile-Wireframes](/assets/documentation/desktop-wireframes.png)
 
 ### Changes
 
@@ -174,8 +176,9 @@ ___
 ## Compatibility testing
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in Chrome developer tools. 
  
- I tested on hardware devices such as: Dell Latitude with Windows OS's, Huawei P30 smartphone with Android OS, samsung A7 lite with Android OS.
+ I tested on hardware devices such as: Dell Latitude with Windows OS's, Huawei P30 smartphone with Android OS on google chrome browser and samsung A7 lite with Android OS.
 
+![Mobile test](/assets/documentation/mobile-hardware.gif)
 
 ## User stories testing
 
@@ -231,12 +234,21 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
 
+ ![Html-validation](/assets/documentation/html-check.png)
+ ![Css-validation](/assets/documentation/css-check.png)
+
 
 
 ___
 # Deployment
 
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I committed all changes to git version control system.
+
+## Repository
+
+https://github.com/Trollope91/Milestone-Project-One
+
+## Live link
 
 https://trollope91.github.io/Milestone-Project-One/
 
