@@ -2,7 +2,7 @@
 
 ## User-Centric Front end Development Milestone Project.
 
-![Project_image](/assets/image/project-image.png)
+![Project_image](/assets/documentation/project-image.png)
 
 The Website presents my portfolio as a full stack web developer, prospective employers and partners will be able to access my skill and find out information relating to my self, as well as contact me and find social links to other platforms.
 
@@ -71,9 +71,9 @@ The website is designed to be simple and effective displaying competent use of H
 
 I used the balsamiq programme to create the initial wireframes.
 
-![Mobile-Wireframes](/assets/image/mobile-wireframes.png)
+![Mobile-Wireframes](/assets/documentation//mobile-wireframes.png)
 
-![Mobile-Wireframes](/assets/image/desktop-wireframes.png)
+![Mobile-Wireframes](/assets/documentation//desktop-wireframes.png)
 
 ### Changes
 
@@ -112,37 +112,37 @@ The website has below features:
        *About me
        *Projects
 
-       ![project images](/assets/image/project1.png)
+       ![project images](/assets/documentation/project1.png)
 
 ## Footer
 
 * Footer has social links centered as icons that animate upon hover. 
 
-![project images](/assets/image/project6.png)
+![project images](/assets/documentation/project6.png)
 
 ## Home
 
 * Home is designed to display design skills and be an immediate introduction to myself and the level of skill at which I currently operate with the ability to contact me via an email modal.
 
-![project images](/assets/image/project2.png)
+![project images](/assets/documentation/project2.png)
 
 ## Skills
 
 * Skills page gives a bit more specific insight into my current level of knowledge and experience.
 
-![project images](/assets/image/project3.png)
+![project images](/assets/documentation/project3.png)
 
 ## About me
 
 * About me gives information about myself my professional background and where I aspire to take my career
 
-![project images](/assets/image/project4.png)
+![project images](/assets/documentation/project4.png)
 
 ## Projects 
 
 * projects page contains a list of the works I have created as an example for prospective employers.
 
-![project images](/assets/image/project5.png)
+![project images](/assets/documentation/project5.png)
 
 ##  Future implementations
 
@@ -195,7 +195,7 @@ ___
 
 ## Media Query / Resolution testing 
 
- ![resolution test](/assets/image/resolution-test.png)
+ ![resolution test](/assets/documentation/resolution-test.png)
 
 
 ## Compatibility testing
@@ -235,22 +235,22 @@ when trying to change the brand name to the site specific colors and add an anim
 (style="color: rgb(161, 152, 17); font-size: xx-large;" onmouseover="this.style.color='#d4c715'" onmouseout="this.style.color='rgb(161, 152, 17))
 
 * #### 
-![testing_issue_1](/assets/image/brand.png)
-![testing_issue_1](/assets/image/brand2.png)
+![testing_issue_1](/assets/documentation/brand.png)
+![testing_issue_1](/assets/documentation/brand2.png)
 
 when attempting to remove the stock boot strap color schemes with my own I decided to use the built in (btn-dark) feature to create a cohesive and intentional feel to the design.
 * #### 
 
-![testing_issue_2](/assets/image/modal-submit.png)
-![testing_issue_2](/assets/image/modal-submit2.png)
+![testing_issue_2](/assets/documentation/modal-submit.png)
+![testing_issue_2](/assets/documentation/modal-submit2.png)
 
 
 ## Performance testing
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 
-![Performance-desktop](/assets/image/response-desktop.png)
-![Performance-mobile](/assets/image/response-mobile.png)
+![Performance-desktop](/assets/documentation/response-desktop.png)
+![Performance-mobile](/assets/documentation/response-mobile.png)
 
 ## Code Validation
  At the and of the project I used two websites to validate a code
