@@ -261,6 +261,11 @@ A user can make a local copy of my repository by going to the GitHub repository 
 Open a terminal on their local machine and navigate to the directory where they want to store the project then type the command "git clone" followed by the URL they copied in step 3, and press Enter.
 Wait for the cloning process to complete.
 
+## Clone link
+
+https://github.com/Trollope91/Milestone-Project-One/archive/refs/heads/main.zip
+
+
 ## Forking the repository
 
 To fork the repository the user can go to the GitHub repository page of the project and click on the "Fork" button in the upper right-hand corner of the page, select the account they want to fork the project to and then wait for GitHub to create a copy of the project in their account.
