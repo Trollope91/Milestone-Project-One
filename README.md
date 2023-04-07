@@ -39,8 +39,6 @@ The main goal of the website is to present myself as a competent developer displ
 * I would like to contact the site owner easily.
 * I would like to be able to find all relevant information needed on the page.
 
-![User-story](/assets/documentation/user-story.gif)
-
 
 ## Structure of the website
 
@@ -200,7 +198,10 @@ ___
     > user can find a more in depth description of the fields that I operate in within it's own page.
 - I want to find out more about the site owner as an individual.
     > The about me section provides a more in depth backstory regarding myself as an individual and my career aspirations, as well as as button that allows the user to download a CV.
+- I want to be able to contact the site owner.
 
+![User story test](/assets/documentation/user-story.gif)
+    
 ---
 ## Issues found during site development
 
