@@ -13,29 +13,6 @@ The main aim of this project is to build a responsive website that uses HTML and
 ## [View luke's portfolio in github pages](https://trollope91.github.io/Milestone-Project-One/)
 ---
 
-# Table of contents
-
-- [UX](#ux)
-    - [Website owner business goals](#website-owner-business-goals)
-    - [User goals](#user-goals)
-        - [New user goals](#new-user-goals)
-        - [Returning user goals](#returning-user-goals)
-        - [Website owner business goals](#website-owner-business-goals)
-    - [User stories](#user-stories)
-    - [Structure of the website](#structure-of-the-website)
-    - [Wireframes](#wireframes)
-- [Features](#features)
-- [Technologies used](#technologies-used)
-    - [Functionality testing](#functionality-testing)
-    - [Compatibility testing](#compatibility-testing)
-    - [Code Validation](#code-validation)
-    - [User stories testing](#user-stories-testing)
-    - [Issues found during site development](#issues-found-during-site-development)
-    - [Performance testing](#performance-testing)
-- [Deployment](#deployment)
-- [Credits](#credits)
-
-
 # UX
 
 ## Website owner business goals
@@ -94,7 +71,6 @@ Brand and headers: rgb(161, 152, 17,)
 
 * I used mostly original images modified with photoshop to create my website
 
-[Back to Table of contents](#table-of-contents)
 ___
 # Features
 
@@ -148,8 +124,6 @@ The website has below features:
 
 * A method to arrange a live meeting 
 
-
-[Back to Table of contents](#table-of-contents)
 ___
 # Technologies used
 
@@ -184,7 +158,6 @@ ___
 * As an image editor.
 
 
-[Back to Table of contents](#table-of-contents)
 
 ___
 # Testing
@@ -232,7 +205,7 @@ I had issues targeting the specific parts of bootstrap which lead to a few issue
 
 when trying to change the brand name to the site specific colors and add an animation on hover I found the only way to rectify it was to use inline styling to circumvent the issue
 
-(style="color: rgb(161, 152, 17); font-size: xx-large;" onmouseover="this.style.color='#d4c715'" onmouseout="this.style.color='rgb(161, 152, 17))
+`style="color: rgb(161, 152, 17); font-size: xx-large;" onmouseover="this.style.color='#d4c715'" onmouseout="this.style.color='rgb(161, 152, 17)`
 
 * #### 
 ![testing_issue_1](/assets/documentation/brand.png)
@@ -259,12 +232,13 @@ I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to 
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
 
 
-[Back to Table of contents](#table-of-contents)
 
 ___
 # Deployment
 
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I committed all changes to git version control system.
+
+https://trollope91.github.io/Milestone-Project-One/
 
 ## Copying the repository
 
@@ -277,7 +251,6 @@ Wait for the cloning process to complete.
 To fork the repository the user can go to the GitHub repository page of the project and click on the "Fork" button in the upper right-hand corner of the page, select the account they want to fork the project to and then wait for GitHub to create a copy of the project in their account.
 Once the fork is complete the project will be available under their account with the option to clone to their local machine.
 
-[Back to Table of contents](#table-of-contents)
 ___
 # Credits
 
@@ -318,5 +291,3 @@ Photo by Godisable Jacob from Pexels: https://www.pexels.com/photo/woman-in-brow
 keyboard image 
 
 https://www.pexels.com/photo/grey-laptop-keypad-60626/
-
-[Back to Table of contents](#table-of-contents)
