@@ -191,6 +191,8 @@ ___
 - I want prospective emplyers to be able to see my relevant projects that show my experience and skills
     > Project sections contains most relevant pieces of work and about me section contains a link to download a CV for a more in depth look at my professional qualifications.
 
+    ![User story test](/assets/documentation/user-story.gif)
+
 ### As a new customer:
 - Wish to find relevant information relating to the site owner
     > user is presented with all relevant navigation information and a contact me prompt upon starting the site.
@@ -200,7 +202,7 @@ ___
     > The about me section provides a more in depth backstory regarding myself as an individual and my career aspirations, as well as as button that allows the user to download a CV.
 - I want to be able to contact the site owner.
 
-![User story test](/assets/documentation/user-story.gif)
+![User story test](/assets/documentation/user-story2.gif)
     
 ---
 ## Issues found during site development
